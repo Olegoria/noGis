@@ -1,0 +1,48 @@
+#map {
+    height: 100vh;
+}
+
+#button {
+    outline: 1px solid #bbb;
+    width: 50%;
+    height: 30px;
+    cursor: pointer;
+}
+
+.btn {
+    font-size: 18px;
+}
+
+.vh {
+    margin-top: 15%;
+    float: left;
+    width: 100%;
+}
+
+#cnopka:hover {
+    outline: 1px solid #33C3F0;
+    background-color: #33C3F0;
+    transition: 0.3s linear;
+}
+
+input[type="button"] {
+    font-size: 35px;
+    padding: 0%;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+input[type="button"]:hover {
+    background-color: white;
+    transition: 0.3s linear;
+}
+
+.btn:hover {
+    background-color: rgba(51, 195, 240, 0.3);
+    transition: 0.3s linear;
+    cursor: move;
+}
+
+.btn.over {
+    outline: 1px solid #33C3F0;
+}
